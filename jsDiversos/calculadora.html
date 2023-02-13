@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    //soma, subtracao, multiplicacao, divisao, resto , porcentagem
+    function calculo(operacao, num1, num2) {
+      var resultado;
+      if (operacao === "Soma") {
+        resultado = num1 + num2;
+      } else if (operacao === "Subtracao") {
+        resultado = num1 - num2;
+      } else if (operacao === "Multiplicacao") {
+        resultado = num1 * num2;
+      } else if (operacao === "Divisao") {
+        resultado = num1 / num2;
+      } else if (operacao === "Resto") {
+        resultado = num1 % num2;
+      } else if (operacao === "Porcentagem") {
+        resultado = num1 * num2 / 100;
+      } else {
+        console.log("Opercação inválida");
+      }
+
+      return resultado;
+    }
+  </script>
+</body>
+</html>

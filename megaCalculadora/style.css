@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;  
+}
+
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(48, 36, 36);
+  padding: 20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom: 2px solid lightgray
+}
+
+h1 {
+  text-align: center;
+  color: #a4ff00;
+}
+
+label {
+  color: #a4ff00;
+}
+
+#botaoCalcular {
+  background: #a4ff00;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.flex-item-1 {
+  flex: 1;
+}
+
+.item {
+  margin: 5px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+main {
+  background: gray;
+  padding: 20px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.calculo {
+  width: 300px;
+}
+
+.calculoResultado {
+  font-size: 1em;
+  color: white;
+}
